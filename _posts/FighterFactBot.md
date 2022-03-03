@@ -1,0 +1,13 @@
+---
+layout: post
+title: Nickname Bot
+# subtitle: Each post also has a subtitle
+gh-repo: https://github.com/smfxfc/reddit-nickname-creator
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
+---
+
+A program that gives unique nicknames to Reddit users.
+
+[Click here to see the subreddit.](https://reddit.com/r/getnicknamed)
