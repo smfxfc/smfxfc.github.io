@@ -2,7 +2,7 @@
 layout: post
 title: This Website!
 subtitle: HTML, CSS, JavaScript
-tags: [Github, Website]
+# tags: [Github, Website]
 gh-repo: https://github.com/smfxfc/smfxfc.github.io
 gh-badge: [star, fork, follow]
 comments: true

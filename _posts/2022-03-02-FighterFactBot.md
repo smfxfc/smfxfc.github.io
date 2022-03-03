@@ -4,7 +4,7 @@ title: Nickname Bot
 subtitle: Python, SQL, Bash
 gh-repo: https://github.com/smfxfc/reddit-nickname-creator
 gh-badge: [star, fork, follow]
-tags: [test]
+# tags: [test]
 comments: true
 ---
 
