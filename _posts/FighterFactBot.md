@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nickname Bot
-# subtitle: Each post also has a subtitle
+subtitle: Python, SQL, Bash
 gh-repo: https://github.com/smfxfc/reddit-nickname-creator
 gh-badge: [star, fork, follow]
 tags: [test]
