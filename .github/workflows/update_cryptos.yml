@@ -1,0 +1,29 @@
+name: Update cryptos
+on: 
+  schedule:
+    - cron: "*/120 * * * *"
+
+jobs:
+  get-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.8
+      - name: Install requests
+        run: pip install requests
+      - name: Update cryptos.md
+        run: python src/get_cryptos.py
+      - name: commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Updated crypto prices"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
