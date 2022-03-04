@@ -8,9 +8,9 @@ author: Scott Flynn-Elhoffer
 
 navbar-links:
   About Me: "aboutme"
-  # Projects:
-  #   - Nickname Bot: "https://smfxfc.github.io/2022-03-02-FighterFactBot/"
-  #   - This Website: "https://smfxfc.github.io/2022-03-01-this-website/"
+  Projects:
+    - Nickname Bot: "https://smfxfc.github.io/2022-03-02-FighterFactBot/"
+    - This Website: "https://smfxfc.github.io/2022-03-01-this-website/"
 
 # --- Logo --- #
 
