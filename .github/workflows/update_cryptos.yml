@@ -1,7 +1,7 @@
 name: Update cryptos
 on: 
   schedule:
-    - cron: "*/120 * * * *"
+    - cron: "*/2 * * * *"
 
 jobs:
   get-prices:
