@@ -3,16 +3,28 @@
 """Get latest cryptocurrency prices from Binance."""
 
 import json
+import re
 import requests
-  
-key = "https://api.binance.com/api/v3/ticker/price?symbol="
+
+CRYPTO_PAGE = "cryptos.md"
+
+KEY = "https://api.binance.com/api/v3/ticker/price?symbol="
   
 tokens = ["ETH", "LUNA", "NANO", "LINK", "AVAX"]
-  
+
+html = "\n"
 for token in tokens:
     
-    url = key+token+"USDT"
+    url = KEY+token+"USDT"
     info = requests.get(url)
     info = info.json()
-    
-    print(f"{token}: {info['price']}")
+    price = float(info['price'])
+    html += f"{token}: ${price:.2f}\n\n"
+
+with open(CRYPTO_PAGE, 'r') as existing_page:
+    previous_content = existing_page.read()
+
+new_content = re.sub(r"(?<=<!\-\-BEGINCRYPTOINPUT\-\->)[\s\S]*(?=<!\-\-ENDCRYPTOINPUT\-\->)", f"{html}", previous_content)
+
+with open(CRYPTO_PAGE, "w") as new_page:
+    new_page.write(new_content)
