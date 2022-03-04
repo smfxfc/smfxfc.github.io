@@ -1,8 +1,5 @@
 name: Beautiful Jekyll CI
-# on: [push, pull_request]
-on:
-  schedule:
-    - cron: "*/120 * * * *"
+on: [push, pull_request]
 
 jobs:
   build:
