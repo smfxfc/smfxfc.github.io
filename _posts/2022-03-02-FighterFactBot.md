@@ -2,7 +2,7 @@
 layout: post
 title: Nickname Bot
 subtitle: Python, SQL, Bash
-gh-repo: https://github.com/smfxfc/reddit-nickname-creator
+gh-repo: smfxfc/reddit-nickname-creator
 gh-badge: [star, fork, follow]
 # tags: [test]
 comments: true
