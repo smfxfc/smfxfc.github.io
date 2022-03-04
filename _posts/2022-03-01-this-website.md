@@ -4,7 +4,7 @@ title: This Website!
 subtitle: HTML, CSS, JavaScript
 # tags: [Github, Website]
 gh-repo: smfxfc/smfxfc.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [star, watch, follow]
 comments: true
 ---
 

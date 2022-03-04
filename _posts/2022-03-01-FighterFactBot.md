@@ -3,7 +3,7 @@ layout: post
 title: FighterFact Bot
 subtitle: Python, SQL
 gh-repo: smfxfc/FighterFactBot
-gh-badge: [star, fork, follow]
+gh-badge: [star, watch, follow]
 # tags: [test]
 comments: true
 ---
