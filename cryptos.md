@@ -5,9 +5,9 @@ subtitle: A few of my personal favorite cryptocurrency projects.
 ---
 
 <!--BEGINCRYPTOINPUT-->
-ETH: $2580.61
+ETH: $2580.00
 
-LUNA: $91.02
+LUNA: $91.11
 
 NANO: $2.22
 
