@@ -7,14 +7,14 @@ subtitle: A few of my personal favorite cryptocurrency projects.
  This page updates every 15 minute using a GitHub Actions workflow.
 
 <!--BEGINCRYPTOINPUT-->
-ETH: $2699.22
+ETH: $2662.92
 
-LUNA: $87.33
+LUNA: $86.92
 
 NANO: $2.22
 
-LINK: $14.11
+LINK: $13.94
 
-AVAX: $70.98
+AVAX: $70.51
 
 <!--ENDCRYPTOINPUT-->
