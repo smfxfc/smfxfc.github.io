@@ -8,15 +8,15 @@ subtitle: A few of my personal favorite cryptocurrency projects.
 
 
 <!--BEGINCRYPTOINPUT-->
-ETH: $3493.57
+ETH: $3514.81
 
-LUNA: $114.66
+LUNA: $114.48
 
 NANO: $2.22
 
-LINK: $17.73
+LINK: $17.88
 
-AVAX: $97.36
+AVAX: $98.08
 
 <!--ENDCRYPTOINPUT-->
  
