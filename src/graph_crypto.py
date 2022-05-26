@@ -103,7 +103,7 @@ def chart(df):
         plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(l=50, r=50, b=0, t=25, pad=0))
     
-    outfile = "crypto/graphs/" + SYM + ".html"
+    outfile = "crypto/" + SYM + ".html"
     fig.write_html(outfile, include_plotlyjs='cdn')
 
     
