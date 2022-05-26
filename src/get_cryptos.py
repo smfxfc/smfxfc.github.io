@@ -23,8 +23,7 @@ for token in tokens:
     
     if token == "LUNA":
         html += f"{site_url}: ${price:.2f} RIP :'(\n\n"
-    else:
-        html += f"{site_url}: ${price:.2f}\n\n"
+    else:html += f"{site_url}: ${price:.2f}\n\n"
 
 with open(CRYPTO_PAGE, 'r') as existing_page:
     previous_content = existing_page.read()

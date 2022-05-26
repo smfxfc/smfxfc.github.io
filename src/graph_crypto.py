@@ -13,6 +13,8 @@ import requests
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
+TOKENS = ["ETH", "LUNA", "NANO", "LINK", "AVAX"]
+
 # retrieve dataframe
 def retrieve_data(
     symbol, comparison_symbol="USD", limit=1, aggregate=1, allData="true"
@@ -110,7 +112,6 @@ def chart(df):
     
 
 
-
 def main(SYM="ETH"):
     df = retrieve_data(SYM)
     df = format_data(df)
@@ -118,4 +119,5 @@ def main(SYM="ETH"):
 
 
 if __name__ == "__main__":
-    main()
+    for token in TOKENS:
+        main(token)
