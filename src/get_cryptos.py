@@ -7,7 +7,7 @@ import re
 import requests
 
 CRYPTO_PAGE = "crypto/cryptos.md"
-
+BASE_URL = "https://smfxfc.github.io/crypto/"
 KEY = "https://api.binance.com/api/v3/ticker/price?symbol="
   
 tokens = ["ETH", "LUNA", "NANO", "LINK", "AVAX"]
@@ -19,7 +19,7 @@ for token in tokens:
     info = requests.get(url)
     info = info.json()
     price = float(info['price'])
-    html += f"{token}: ${price:.2f}\n\n"
+    html += f"{[token](BASE_URL+token+'.html')}: ${price:.2f}\n\n"
 
 with open(CRYPTO_PAGE, 'r') as existing_page:
     previous_content = existing_page.read()
