@@ -6,7 +6,7 @@ import json
 import re
 import requests
 
-CRYPTO_PAGE = "cryptos.md"
+CRYPTO_PAGE = "crypto/cryptos.md"
 
 KEY = "https://api.binance.com/api/v3/ticker/price?symbol="
   
