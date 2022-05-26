@@ -103,7 +103,7 @@ def chart(df):
         plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(l=50, r=50, b=0, t=25, pad=0))
     
-    outfile = SYM + ".html"
+    outfile = "crypto/" + SYM + ".html"
     fig.write_html(outfile, include_plotlyjs='cdn')
 
     
@@ -111,7 +111,7 @@ def chart(df):
 
 
 
-def main(SYM):
+def main(SYM="ETH"):
     df = retrieve_data(SYM)
     df = format_data(df)
     chart(df)
