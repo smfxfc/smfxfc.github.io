@@ -19,7 +19,7 @@ for token in tokens:
     info = requests.get(url)
     info = info.json()
     price = float(info['price'])
-    site_url = f"[{token}]({BASE_URL}+{token}.html)"
+    site_url = f"[{token}]({BASE_URL}{token}.html)"
     html += f"{site_url}: ${price:.2f}\n\n"
 
 with open(CRYPTO_PAGE, 'r') as existing_page:
