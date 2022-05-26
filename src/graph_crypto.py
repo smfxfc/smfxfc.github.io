@@ -106,6 +106,8 @@ def chart(df):
         margin=dict(l=50, r=50, b=0, t=25, pad=0),
     )
 
+    if SYM == "NANO":
+        SYM = "XNO" # symbol inconsistent between coinmarketcap api and cryptocompare api
     outfile = "crypto/" + SYM.lower() + ".html"
     fig.write_html(outfile, include_plotlyjs="cdn")
 
