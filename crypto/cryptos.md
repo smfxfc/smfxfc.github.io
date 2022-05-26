@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Token Tracker
+permalink: /crypto/
 subtitle: A few of my personal favorite cryptocurrency projects.
 ---
 
