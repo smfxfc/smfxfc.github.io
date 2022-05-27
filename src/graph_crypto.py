@@ -34,7 +34,7 @@ def format_data(df):
     """
     df["time"] = [datetime.fromtimestamp(d) for d in df.time]
     df["time"] = df["time"] + pd.Timedelta(
-        hours=6  # toggle this depending on timezone.
+        hours=12  # toggle this depending on timezone.
     )
     df["time"] = pd.to_datetime(df.time)
     df["time"] = df["time"].dt.strftime("%m/%d/%Y")
