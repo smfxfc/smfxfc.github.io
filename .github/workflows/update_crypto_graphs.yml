@@ -17,6 +17,8 @@ jobs:
         run: pip install -r src/requirements.txt
       - name: Update crypto graphs
         run: python src/graph_crypto.py
+      - name: pull remote
+        run: git pull origin master
       - name: commit changes
         run: |
           git config --local user.email "action@github.com"

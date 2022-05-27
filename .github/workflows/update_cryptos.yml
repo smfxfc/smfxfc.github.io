@@ -17,6 +17,8 @@ jobs:
         run: pip install requests
       - name: Update cryptos.md
         run: python src/get_cryptos.py
+      - name: pull remote
+        run: git pull origin master
       - name: commit changes
         run: |
           git config --local user.email "action@github.com"
