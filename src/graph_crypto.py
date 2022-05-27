@@ -44,6 +44,9 @@ def format_data(df):
 def chart(df):
     """Create combined line+bar chart from dataframe."""
     SYM = df.name  # for use in axes titles
+    if SYM == "NANO": # annoying inconsistency in data sources  
+        SYM="XNO"
+
     df = df.tail(93)
 
     # set up plotly figure
