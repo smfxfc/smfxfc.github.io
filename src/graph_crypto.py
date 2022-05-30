@@ -47,7 +47,7 @@ def chart(df):
     if SYM == "NANO": # annoying inconsistency in data sources  
         SYM="XNO"
 
-    df = df.tail(93)
+    df = df.tail(365)
 
     # set up plotly figure
     fig = make_subplots(specs=[[{"secondary_y": True}]])
