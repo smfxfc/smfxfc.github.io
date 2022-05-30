@@ -95,7 +95,7 @@ def chart(df):
             title_standoff=50,
             showgrid=False,
         ),
-        xaxis=dict(dtick=30, tickangle=-45, title_standoff=50),
+        xaxis=dict(dtick=10, tickangle=-45, title_standoff=50),
         legend=dict(
             orientation="h",
             x=0.4,
