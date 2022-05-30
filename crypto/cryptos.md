@@ -24,6 +24,6 @@ subtitle: A few of my personal favorite cryptocurrency projects.
  
 [See the Python Script to retrieve live price here.](https://github.com/smfxfc/smfxfc.github.io/blob/master/src/get_cryptos.py)
 
-[See the Python Script to create live graphs here.](https://github.com/smfxfc/smfxfc.github.io/blob/master/src/graph_cryptos.py)
+[See the Python Script to create live graphs here.](https://github.com/smfxfc/smfxfc.github.io/blob/master/src/graph_crypto.py)
 
 [See the GitHub workflows here.](https://github.com/smfxfc/smfxfc.github.io/blob/master/.github/workflows/)
