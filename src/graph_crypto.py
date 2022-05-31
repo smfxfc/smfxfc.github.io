@@ -46,6 +46,8 @@ def chart(df):
     SYM = df.name  # for use in axes titles
     if SYM == "NANO": # annoying inconsistency in data sources  
         SYM="XNO"
+    elif SYM == "LUNA":
+        SYM = "LUNC"
 
     df = df.tail(365)
 

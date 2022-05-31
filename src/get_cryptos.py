@@ -10,7 +10,7 @@ CRYPTO_PAGE = "crypto/cryptos.md"
 BASE_URL = "https://smfxfc.github.io/crypto/"
 KEY = "https://api.binance.com/api/v3/ticker/price?symbol="
 
-tokens = ["ETH", "LUNA", "XNO", "LINK", "AVAX"]
+tokens = ["ETH", "LUNC", "XNO", "LINK", "AVAX"]
 
 html = "\n"
 for token in tokens:
