@@ -9,15 +9,15 @@ subtitle: A few of my personal favorite cryptocurrency projects.
 
 
 <!--BEGINCRYPTOINPUT-->
-[ETH](https://smfxfc.github.io/crypto/eth.html): $1900.63
+[ETH](https://smfxfc.github.io/crypto/eth.html): $1903.92
 
-[LUNA](https://smfxfc.github.io/crypto/luna.html): $5.08 RIP :'(
+[LUNA](https://smfxfc.github.io/crypto/luna.html): $5.10 RIP :'(
 
 [XNO](https://smfxfc.github.io/crypto/xno.html): $1.20
 
-[LINK](https://smfxfc.github.io/crypto/link.html): $7.93
+[LINK](https://smfxfc.github.io/crypto/link.html): $7.98
 
-[AVAX](https://smfxfc.github.io/crypto/avax.html): $26.74
+[AVAX](https://smfxfc.github.io/crypto/avax.html): $26.97
 
 <!--ENDCRYPTOINPUT-->
  
