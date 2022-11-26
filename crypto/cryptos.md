@@ -15,7 +15,7 @@ subtitle: A few of my personal favorite cryptocurrency projects.
 
 [XNO](https://smfxfc.github.io/crypto/xno.html): $0.77
 
-[LINK](https://smfxfc.github.io/crypto/link.html): $7.14
+[LINK](https://smfxfc.github.io/crypto/link.html): $7.11
 
 [AVAX](https://smfxfc.github.io/crypto/avax.html): $12.76
 
